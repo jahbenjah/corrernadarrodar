@@ -1,8 +1,10 @@
 ---
 layout: post
-title: "Welcome to Jekyll!"
+title: "Bienvenido Correr Nadar Rodar"
 date: 2021-05-09 14:13:46 -0500
-categories: jekyll update
+categories: correr nadar rodar
+tags: correr nadar rodar
+permalink: /:categories/:title:output_ext
 ---
 
 Sadipscing labore amet rebum est et justo gubergren. Et eirmod ipsum sit diam ut
