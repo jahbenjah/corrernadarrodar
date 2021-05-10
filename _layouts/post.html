@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "es" }}">
+
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    {%- seo -%}
+    {%- feed_meta -%}
+    {%- if jekyll.environment == 'production' and site.google_analytics -%}
+        {%- include google-analytics.html -%}
+        {%- include google-addsense.html -%}
+    {%- endif -%}
+    {%- include facebookopengraph.html -%}
+    {%- include favicon.html -%}
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet"> 
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <!-- Libraries Stylesheet -->
+    <link href="{{"lib/owlcarousel/assets/owl.carousel.min.css" | relative_url}}" rel="stylesheet">
+    <link href="{{"lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css" | relative_url}}" rel="stylesheet" />
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="{{"css/style.css" | relative_url }}" rel="stylesheet">
+</head>
+
+<body>
+ 
+    {% include topbar.html%}
+
+    {% include navbar.html%}
+
+    {% include header.html%}
+
+    <!-- Blog Start -->
+    <div class="container-fluid py-5">
+        <div class="container py-5">
+            <div class="row">
+                <div class="col-lg-8">
+                    <!-- Blog Detail Start -->
+                    <div class="pb-3">
+                        <div class="blog-item">
+                            <div class="position-relative">
+                                <img class="img-fluid w-100" src="{{"img/blog-1.jpg" | relative_url}}" alt="">
+                                <div class="blog-date">
+                                    <h6 class="font-weight-bold mb-n1">{{ page.date | date: "%-d" }}</h6>
+                                    <small class="text-white text-uppercase">{{ page.date | date: "%B" }}</small>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="bg-white mb-3" style="padding: 30px;">
+                            <div class="d-flex mb-3">
+                                <a class="text-primary text-uppercase text-decoration-none" href="">Admin</a>
+                                <span class="text-primary px-2">|</span>
+                                <a class="text-primary text-uppercase text-decoration-none" href="">Tours & Travel</a>
+                            </div>
+                            <h2 class="mb-3">{{ page.title | escape }}</h2>
+                            {{ content }}
+                        </div>
+                    </div>
+                    <!-- Blog Detail End -->
+    
+                     {% include comment-list.html %}
+    
+                     {% include comments-form.html%}
+                </div>
+    
+                <div class="col-lg-4 mt-5 mt-lg-0">
+
+                    {% include author-bio.html%}
+                    
+                    {% include category-list.html %}
+    
+                    {% include recentpost.html %}
+    
+                    {% include tagcloud.html %}
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Blog End -->
+
+    {% include footer.html %}
+    
+</body>
+
+</html>
