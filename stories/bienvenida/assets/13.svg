@@ -1,9 +1,9 @@
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100" height="100" viewBox="0 0 100 100">
   <defs>
-    <linearGradient id="oeifsbtjhj" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+    <linearGradient id="xoodibluuv" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
       <stop offset="0" stop-color="#ff009d"/>
       <stop offset="1" stop-color="#ff009d" stop-opacity="0.451"/>
     </linearGradient>
   </defs>
-  <circle id="dcnvfaymil" data-name="Ellipse 5" cx="50" cy="50" r="50" fill="url(#oeifsbtjhj)"/>
+  <circle id="elseovyoyk" data-name="Ellipse 5" cx="50" cy="50" r="50" fill="url(#xoodibluuv)"/>
 </svg>
