@@ -21,8 +21,8 @@ ipsum duo sanctus amet eos et. Consetetur no sed et aliquyam ipsum justo et,
 clita lorem sit vero amet amet est dolor elitr, stet et no diam sit. Dolor erat
 justo dolore sit invidunt.
 
-<h4 class="mb-3">Est dolor lorem et ea</h4>
-<img class="img-fluid w-50 float-left mr-4 mb-2" src="{{"img/blog-2.jpg" | relative_url}}">
+<h4 class="mb-3">Correr</h4>
+<img loading=lazy class="img-fluid w-50 float-left mr-4 mb-2" src="{{"img/blog-2.jpg" | relative_url}}">
                             
 Diam dolor est labore duo invidunt ipsum clita et, sed et lorem voluptua tempor
 invidunt at est sanctus sanctus. Clita dolores sit kasd diam takimata justo diam
@@ -35,8 +35,8 @@ dolores takimata dolor dolore dolore sit. Sit ipsum erat amet lorem et, magna
 sea at sed et eos. Accusam eirmod kasd lorem clita sanctus ut consetetur et. Et
 duo tempor sea kasd clita ipsum et.
                             
-<h5 class="mb-3">Est dolor lorem et ea</h5>
-<img class="img-fluid w-50 float-right ml-4 mb-2" src="{{"img/blog-3.jpg" | relative_url}}">
+<h5 class="mb-3">Nadar</h5>
+<img loading=lazy class="img-fluid w-50 float-right ml-4 mb-2" src="{{"img/blog-3.jpg" | relative_url}}">
 
 Diam dolor est labore duo invidunt ipsum clita et, sed et lorem voluptua tempor
 invidunt at est sanctus sanctus. Clita dolores sit kasd diam takimata justo diam
