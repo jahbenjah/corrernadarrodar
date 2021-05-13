@@ -7,6 +7,9 @@ description: >-
 baseurl: "" 
 url: "https://corrernadarrodar.com" 
 google_analytics: G-3R0ZW7M2TG
+youtube: UCt39_snfnNRmsbp_QU4X3Bg
+instagram: 
+
 twitter:
   username: corrernadarrodar
   card: summary
@@ -15,6 +18,7 @@ facebook:
   app_id: 1234
   publisher: 1234
   admins: 1234
+  page: corrernadarrodar
 
 social:
   name: Correr Nadar Rodar

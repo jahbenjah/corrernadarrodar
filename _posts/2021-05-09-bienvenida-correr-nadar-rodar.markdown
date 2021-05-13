@@ -4,7 +4,7 @@ title: "Bienvenido Correr Nadar Rodar"
 date: 2021-05-09 14:13:46 -0500
 categories: correr nadar rodar
 tags: correr nadar rodar
-permalink: /:categories/:title:output_ext
+permalink: /:title:output_ext
 ---
 
 Sadipscing labore amet rebum est et justo gubergren. Et eirmod ipsum sit diam ut
@@ -22,7 +22,7 @@ clita lorem sit vero amet amet est dolor elitr, stet et no diam sit. Dolor erat
 justo dolore sit invidunt.
 
 <h4 class="mb-3">Correr</h4>
-<img loading=lazy class="img-fluid w-50 float-left mr-4 mb-2" src="{{"img/blog-2.jpg" | relative_url}}">
+<img loading=lazy class="img-fluid w-50 float-left mr-4 mb-2" src="{{"img/blog-2.jpg.webp" | relative_url}}">
                             
 Diam dolor est labore duo invidunt ipsum clita et, sed et lorem voluptua tempor
 invidunt at est sanctus sanctus. Clita dolores sit kasd diam takimata justo diam
@@ -36,7 +36,7 @@ sea at sed et eos. Accusam eirmod kasd lorem clita sanctus ut consetetur et. Et
 duo tempor sea kasd clita ipsum et.
                             
 <h5 class="mb-3">Nadar</h5>
-<img loading=lazy class="img-fluid w-50 float-right ml-4 mb-2" src="{{"img/blog-3.jpg" | relative_url}}">
+<img loading=lazy class="img-fluid w-50 float-right ml-4 mb-2" src="{{"img/blog-3.jpg.webp" | relative_url}}">
 
 Diam dolor est labore duo invidunt ipsum clita et, sed et lorem voluptua tempor
 invidunt at est sanctus sanctus. Clita dolores sit kasd diam takimata justo diam
