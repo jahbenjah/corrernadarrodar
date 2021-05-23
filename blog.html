@@ -16,8 +16,8 @@ layout: page
                             <div class="position-relative">
                                 <img class="img-fluid w-100" src="{{post.portada}}" alt="">
                                 <div class="blog-date">
-                                    <h6 class="font-weight-bold mb-n1">01</h6>
-                                    <small class="text-white text-uppercase">Jan</small>
+                                    <h6 class="font-weight-bold mb-n1">{{ page.date | date: "%B" }}</h6>
+                                    <small class="text-white text-uppercase">{{ page.date | date: "%-d" }}</small>
                                 </div>
                             </div>
                             <div class="bg-white p-4">

@@ -59,11 +59,9 @@ sea at sed et eos. Accusam eirmod kasd lorem clita sanctus ut consetetur et. Et
 duo tempor sea kasd clita ipsum et. Takimata kasd diam justo est eos erat
 aliquyam et ut.
 
-
-
 <h3 class="mb-3">Tabla</h3>
 <img loading=lazy class="img-fluid w-50 float-left mr-4 mb-2" src="{{"img/blog-2.jpg.webp" | relative_url}}">
-                            
+
 Diam dolor est labore duo invidunt ipsum clita et, sed et lorem voluptua tempor
 invidunt at est sanctus sanctus. Clita dolores sit kasd diam takimata justo diam
 lorem sed. Magna amet sed rebum eos. Clita no magna no dolor erat diam tempor
@@ -90,9 +88,9 @@ sea at sed et eos. Accusam eirmod kasd lorem clita sanctus ut consetetur et. Et
 duo tempor sea kasd clita ipsum et. Takimata kasd diam justo est eos erat
 aliquyam et ut.
 
-<h3 class="mb-3">Pull-Boy</h3>
+<h3 class="mb-3">Pull-Bouy</h3>
 <img loading=lazy class="img-fluid w-50 float-left mr-4 mb-2" src="{{"img/blog-2.jpg.webp" | relative_url}}">
-                            
+
 Diam dolor est labore duo invidunt ipsum clita et, sed et lorem voluptua tempor
 invidunt at est sanctus sanctus. Clita dolores sit kasd diam takimata justo diam
 lorem sed. Magna amet sed rebum eos. Clita no magna no dolor erat diam tempor

@@ -41,7 +41,7 @@
                     <div class="pb-3">
                         <div class="blog-item">
                             <div class="position-relative">
-                                <img class="img-fluid w-100" src="{{"page.portada" | relative_url}}" alt="">
+                                <img class="img-fluid w-100" src="{{ page.portada | relative_url}}" alt="">
                                 <div class="blog-date">
                                     <h6 class="font-weight-bold mb-n1">{{ page.date | date: "%-d" }}</h6>
                                     <small class="text-white text-uppercase">{{ page.date | date: "%B" }}</small>
@@ -49,11 +49,6 @@
                             </div>
                         </div>
                         <div class="bg-white mb-3" style="padding: 30px;">
-                            <div class="d-flex mb-3">
-                                <a class="text-primary text-uppercase text-decoration-none" href="">Admin</a>
-                                <span class="text-primary px-2">|</span>
-                                <a class="text-primary text-uppercase text-decoration-none" href="">Tours & Travel</a>
-                            </div>
                             <h2 class="mb-3">{{ page.title | escape }}</h2>
                             {{ content }}
                         </div>
